@@ -1,0 +1,139 @@
+nav {
+  background: #72aeb3;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
+.nav-right a,
+.nav-left a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.nav-left img,
+.nav-right img {
+  margin-right: 5px;
+}
+
+/* imaagen principal */
+.container-home {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container-img {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+}
+
+.title h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* catalogo */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+}
+
+.card {
+  width: 17rem;
+  margin: 0.5rem;
+  height: 13rem;
+}
+
+.overflow-auto {
+  overflow-x: auto;
+}
+
+.card ul {
+  font-size: 14px;
+}
+
+.card p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* pizza seleccionada */
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pizza {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e2e1e1;
+  padding-right: 30px;
+}
+
+.info {
+  margin-left: 2rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* carrito */
+.carrito {
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  margin: 0;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+table {
+  padding: 10px;
+  margin-right: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin-top: 10px;
+  background-color: #fff;
+  margin-right: 10px;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
